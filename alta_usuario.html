@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <ol>
+                  <h2>Formulario</h2>
+                  <hr>
+                    <br>
+                       <input type="image" src="/foto.jpg" width="200" height="200">
+                    <br>
+    
+                    <br>
+                       <li> <span>Nombre: </span> 
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Escribe primer nombre">
+                       </li>
+                    <br>
+
+                      <li>
+                          <span>Apellido: </span>
+                          <input type="text" name="Apellido" id="Apellido" placeholder="Escribe primer apellido">
+                      </li>
+                    <br>
+
+                      <li>
+                        <span>Edad: </span>
+                        <input type="number" name="Edad" id="Edad" min="0" max="100">
+                      </li>
+
+                    <br>
+
+                      <li>
+                          <span>Lugar de nacimiento:</span>
+                          <input type="text" name="Lugar nacimiento" id="Lugar nacimiento" size="18" minlength="2" placeholder="Escribe Localidad">
+                      </li>
+                    <br> 
+                      <li>
+                          <span>Barrio actual:</span>
+                          <input text="text" list="ListaBarrio" class="input" placeholder="Despliega Barrio"/>
+                      </li>  
+                          <datalist id="ListaBarrio">
+                              <option value="ABASTO"></option>
+                              <option value="ALTOS DE SAN LORENZO "></option>
+                              <option value="ARANA"></option>
+                              <option value="ARTURO SEGUI "></option>
+                              <option value="CITY BELL"></option>
+                              <option value="EL PELIGRO"></option>
+                              <option value="EL RINCON "></option>
+                              <option value="ANGEL ETCHEVERRY "></option>
+                              <option value="GORINA"></option>
+                              <option value="HERMANDEZ"></option>
+                              <option value="LISANDRO OLMOS "></option>
+                              <option value="LOS HORNOS"></option>
+                              <option value="MANUEL B GONNET"></option>
+                              <option value="MELCHOR ROMERO "></option>
+                              <option value="PARQUE SICARDI - VILLA GARIBALDI"></option>
+                              <option value="RINGUELET "></option>
+                              <option value="SAN CARLOS"></option>
+                              <option value="TOLOSA"></option>
+                              <option value="VILLA CASTELL"></option>
+                              <option value="VILLA ELISA"></option>
+                              <option value="VILLA ELVIRA"></option>
+                          </datalist>
+                     <br> 
+                       <li>
+                            <span>Localidad actual:</span>
+                            <input text="text" list="ListaLocalidad" class="input" placeholder="Despliega Localidad"/>
+                       </li>  
+                    <br>
+                            <datalist id="ListaLocalidad" >
+                                <option value="Ensenada"></option>
+                                <option value="Berisso"></option>
+                                <option value="La Plata"></option>
+                            </datalist>
+                    <br>
+                      <li>
+                        <span>Tiene hijos</span>
+                            <input type="radio" name="hijos" value="si"> SI
+                            <input type="radio" name="hijos" value="no"> NO
+                      </li>
+                    <br>  
+                            <input type="submit" value="Enviar datos"> 
+                            <input type="reset"> 
+                </ol>
+            </div>
+        </section>
+        <section>
+            <br>   
+              <a href="./index.html">Ir a Inicio</a>
+            <br>
+        </section>
+    </main>
+</body>
+</html>
